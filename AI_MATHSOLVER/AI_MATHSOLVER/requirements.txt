@@ -1,0 +1,17 @@
+# Core web app
+Flask>=3.0.0
+Flask-SQLAlchemy>=3.1.0
+Flask-Login>=0.6.3
+Werkzeug>=3.0.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+
+# Optional: cloud solver (set GEMINI_API_KEY and SOLVER_BACKEND=auto or gemini)
+google-generativeai>=0.8.0
+
+# Local ML pipeline: ONNX OCR (lightweight; avoids PyTorch/EasyOCR crashes on Windows)
+rapidocr-onnxruntime>=1.1.0
+onnxruntime>=1.16.0
+sympy>=1.12
+opencv-python-headless>=4.9.0
+numpy>=1.24.0
